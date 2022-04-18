@@ -1,0 +1,99 @@
+body{
+  background-color: yellowGreen;
+  float: right;
+}
+
+a{
+  color: Olive;
+  text-decoration: none;
+}
+
+.text{
+  color:Olive;
+  font-size: 20px;
+  font-family: 'Special Elite', cursive;
+  position:absolute;
+  right:30%;
+  top:50%;
+  text-align:right；
+}
+
+p:hover {
+  color:Tomato;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.inner_text{
+  visibility: hidden;
+  position:absolute;
+  right:150%;
+  top:-200%;
+  text-align: left;
+  overflow-wrap: break-word;
+  width:290%;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+.inner_photo{
+  transform: scale(0.4);
+  position:absolute;
+  right:-300%;
+  top:-200%;
+  text-align: left;
+  /* width:290%; */
+}
+#j_planet_photo{
+  transform: scale(0.25);
+  position:absolute;
+  right:-250%;
+  top:-500%;
+  visibility: hidden;
+}
+
+#sudden_photo{
+  transform: scale(0.15);
+  position:absolute;
+  right:-670%;
+  top:-590%;
+  visibility: hidden;
+}
+
+#album_photo{
+  transform: scale(0.3);
+  position:absolute;
+  right:-350%;
+  top:-400%;
+  visibility: hidden;
+}
+
+#J_planet:hover #j_planet_photo {
+  visibility: visible;
+}
+#J_planet:hover #J_planet_text {
+  visibility: visible;
+}
+
+#sudden:hover #sudden_text {
+  visibility: visible;
+}
+#sudden:hover #sudden_photo {
+  visibility: visible;
+}
+
+#album:hover #album_text {
+  visibility: visible;
+}
+#album:hover #album_photo {
+  visibility: visible;
+}
+
+
+#Aislynn{
+  background-color: Olive;
+  color:Linen;
+  width:110%;
+  text-align: center;
+}
