@@ -62,10 +62,10 @@ p:hover {
 }
 
 #album_photo{
-  transform: scale(0.3);
+  transform: scale(0.2);
   position:absolute;
-  right:-350%;
-  top:-400%;
+  right:-510%;
+  top:-500%;
   visibility: hidden;
 }
 
